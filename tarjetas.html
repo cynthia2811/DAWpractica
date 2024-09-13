@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BancoPuertollano</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+</head>
+<body>
+    <div id="menu">
+        <h1>BancoPuertollano</h1>
+        <ul >
+            <li><a href="index.html" id="index">Inicio</a></li>
+            <li><a href="InfoCuenta.html" id="cuenta">Información Cuenta</a></li>
+            <li><a href="tarjetas.html" id="tarjeta">Tarjetas</a></li>
+        </ul>
+    </div>
+    
+    <h2>Tarjetas</h2>
+
+    <table>
+        <thead>
+          <tr>
+            <th>Número de cuenta</th>
+            <th>Número de tarjeta</th>
+            <th>Activa</th>
+          </tr>
+        </thead>
+        <tbody id="tablaTarjetas">
+
+        </tbody>
+      </table>
+      
+    <h2>Agregar Tarjeta</h2>
+
+    <table>
+        <tr>
+          <td><p>Nombre:</p></td>
+          <td><input type="text"  id="nombre" placeholder="Numero de Tarjeta"></td>
+        </tr>
+        <tr>
+          <td><p>Cvv:</p></td>
+          <td><input type="text" id="cvv" placeholder="CVV"></td>
+        </tr>
+        <tr>
+          <td><p>Activa:</p></td>
+          <td><input type="checkbox" id="activa"></td>
+        </tr>
+        </br>
+        <tr>
+          <td> <input type="button" id="guardarTarjeta" value="Guardar tarjeta"></td>
+        </tr>
+      </table>
+
+    <p id="msg"></p>
+    <script src="app3.js"></script>
+    <script>
+        cargarCabecera('menu')
+        inicioTarjeta()
+    </script>
+       
+    </div>
+    
+</body>
+
+</html>
