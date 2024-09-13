@@ -5,10 +5,10 @@ const cuenta = document.getElementById('cuenta');
 const tarjeta = document.getElementById('tarjeta');
 
 var persona = { //objeto de inicio de persona
-    nombre: 'Francisco',
-    apellido1: 'Alía',
-    apellido2: 'Hernández',
-    nacionalidad: 'española'
+    nombre: 'Cynthia',
+    apellido1: 'Rivas',
+    apellido2: 'del Moral',
+    nacionalidad: 'Española'
 }
 
 // EVENTOS 
