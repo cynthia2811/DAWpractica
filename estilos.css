@@ -16,6 +16,9 @@ body {
     font-size:15px;
 }
 #datos {
+    font-style: oblique;
+    font-size: 15;
+    color: red;
     grid-column-start: 1;
     display: grid;
     grid-template-columns: 1fr 2fr;
