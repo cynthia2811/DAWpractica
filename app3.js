@@ -33,8 +33,8 @@ class Tarjeta {//la clase tarjeta para almacenarlas
     }
 }   
 
-const fija1 = new Tarjeta('1234567122456','123', 'Si');
-const fija2 = new Tarjeta('1234567122456','123', 'No');
+const fija1 = new Tarjeta('1234567122456','123', 'On');
+const fija2 = new Tarjeta('1234567122456','123', 'Off');
 
 var arrayTarjetas = [fija1, fija2];
 
